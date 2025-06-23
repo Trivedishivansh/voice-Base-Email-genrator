@@ -19,7 +19,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [View Live on GitHub Pages] https://vandan-bhangale.github.io/Voice-base-email-generator/ 
+🔗 [View Live on GitHub Pages] 
 
 ---
 
@@ -55,8 +55,3 @@
 
 ---
 
-## 🧑‍💻 How to Run Locally
-
-```bash
-git clone https://github.com/Vandan-Bhangale/Voice-base-email-generator.git
-```# voice-Base-Email-genrator
