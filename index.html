@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VoiceMail – Voice Based Email</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>🎙️ VoiceMail</h2>
+
+    <label for="to">To</label>
+    <div class="field-group">
+      <input type="email" id="to" placeholder="Recipient email"/>
+      <button class="mic-btn" id="speakTo">🎤 Start</button>
+    </div>
+
+    <label for="subject">Subject</label>
+    <div class="field-group">
+      <input type="text" id="subject" placeholder="Email subject"/>
+      <button class="mic-btn" id="speakSubject">🎤 Start</button>
+    </div>
+
+    <label for="message">Message</label>
+    <div class="field-group">
+      <textarea id="message" rows="5" placeholder="Speak your message..."></textarea>
+      <button class="mic-btn" id="speakMessage">🎤 Start</button>
+    </div>
+
+    <div class="status" id="status">Click a button to start speaking...</div>
+
+    <button class="send-btn">Send</button>
+
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
